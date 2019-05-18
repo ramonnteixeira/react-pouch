@@ -1,0 +1,10 @@
+.board {
+  background-color: darkgray;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.item {
+  list-style-type: none;
+  padding: 15px;
+}
