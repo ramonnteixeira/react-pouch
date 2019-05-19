@@ -45,11 +45,11 @@ export default class App extends Component {
               Incluir
         </button>
 
-        <ul class="board">
+        <ul className="board">
           {this.state.todos.map(
               (item) => { 
                   return (
-                    <li class="item" key={item._id}>{item.name}
+                    <li className="item" key={item._id}>{item.name}
                       <button onClick={() => this.remove(item)}>x</button>
                     </li>
                   );
